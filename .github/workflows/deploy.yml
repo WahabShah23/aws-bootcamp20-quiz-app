@@ -35,7 +35,7 @@ jobs:
      
     # Add styled components
     - name: Add Styled Components
-      run: yarn build
+      run: yarn add styled-components
      
      # Install React App with yarn
     - name: Build React App
