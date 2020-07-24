@@ -32,7 +32,11 @@ jobs:
     - uses: borales/actions-yarn@v2.0.0
       with: 
         cmd: install # will run 'yarn install' command
-        
+     
+    # Add styled components
+    - name: Add Styled Components
+      run: yarn build
+     
      # Install React App with yarn
     - name: Build React App
       run: yarn build
