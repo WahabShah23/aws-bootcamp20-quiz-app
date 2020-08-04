@@ -35,7 +35,7 @@ jobs:
      
     # Install styled components
     - name: Install Styled Components & types
-      run: npm install styled-components @types/styles-components
+      run: npm install styled-components @types/styled-components
      
      # Install React App with yarn
     - name: Build React App
