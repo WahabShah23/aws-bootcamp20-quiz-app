@@ -44,6 +44,8 @@ function App() {
     setNumber(0);
     setLoading(false);
 
+    console.log({newQuestions});
+
   }
 
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
