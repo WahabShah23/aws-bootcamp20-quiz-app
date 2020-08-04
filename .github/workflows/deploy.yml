@@ -33,9 +33,9 @@ jobs:
       with: 
         cmd: install # will run 'yarn install' command
      
-    # Add styled components
-    - name: Add Styled Components
-      run: yarn add styled-components
+    # Install styled components
+    - name: Install Styled Components & types
+      run: npm install styled-components @types/styles-components
      
      # Install React App with yarn
     - name: Build React App
