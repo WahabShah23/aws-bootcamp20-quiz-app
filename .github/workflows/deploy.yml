@@ -33,13 +33,15 @@ jobs:
       with: 
         cmd: install # will run 'yarn install' command
      
-    # Install styled components
-    - name: Install Styled Components & types
-      run: npm install styled-components @types/styled-components
      
      # Install React App with yarn
     - name: Build React App
       run: yarn build
+     
+     # Install styled components
+    - name: Install Styled Components & types
+      run: npm install styled-components @types/styled-components
+     
         
     # Install Surge
     - name: Install Surge
